@@ -1,0 +1,31 @@
+.footer_main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(235, 244, 241);
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+a {
+    color: inherit;  /* Inherits the text color from its parent */
+    text-decoration: none;  /* Removes the underline */
+}
+.heading{
+    font-weight: bold;
+    font-size: 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.footer_left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}

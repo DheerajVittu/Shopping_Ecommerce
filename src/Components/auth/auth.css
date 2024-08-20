@@ -1,0 +1,120 @@
+.container,.login_components1,.forget_info{
+    background-image: url(../Assets/Background.png);
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    gap: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px; /* Reduced from 100px to 50px */
+    gap: 2px; /* Add gap to control spacing between child elements */
+}
+
+.logo_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.main_span{
+    color: #171717;
+    font-size: 18px;
+    font-weight: 300;
+}
+.child_span{
+    font-size: 40px;
+    font-weight: 600px;
+}
+.text1{
+    font-size: 18px;
+    color: red;
+}
+.input_tags{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.login_components{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.check_box{
+    font-size: 12px;
+}
+.main_checkbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.login_button{
+    width: 300px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 7px;
+    font-weight: 600;
+    box-shadow: 6px 7px 5px 6px rgb(26, 24, 24);
+}
+.login_form {
+    margin-bottom: 5px; /* Reduced space below login_form */
+    padding: 40px; /* Adjust padding inside the form if needed */
+    gap: 20px; /* Maintain some spacing between form elements */
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.login_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.input_tags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_components1{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+
+}
+.forget_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+    flex-direction: column;
+    gap: 20px;
+}
+.forget_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.forget_buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
