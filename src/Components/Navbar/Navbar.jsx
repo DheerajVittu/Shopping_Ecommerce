@@ -44,7 +44,7 @@ const Navbar = () => {
                 </ul>
                 <div className="nav-login-cart">
                     <Link style={{ textDecoration: 'none' }} to='/login'>
-                        <button>Login</button>
+                        <button>Login and Continue</button>
                     </Link>
                     <Link to='/cart'><a href=''><img src={cart_icon} alt='' /></a> </Link>
                     <div className="nav-cart-count">
