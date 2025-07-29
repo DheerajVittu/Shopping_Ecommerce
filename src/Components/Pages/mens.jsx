@@ -53,7 +53,7 @@ const Mens = () => {
             id="p4"
                name='Hoodie'
                img={product_22}
-               des='Mens Cotton Hoodie'
+               des='Mens Cotton'
                price='499'
                rating='3.5'
                color='White,Black,Blue,Red'
